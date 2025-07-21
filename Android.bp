@@ -330,6 +330,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libsecureuisvc_jni.so",
             ],
             shared_libs: [
+                "libgui_shim",
                 "liblog",
                 "libsecureui_svcsock_system",
                 "libcutils",
@@ -9229,6 +9230,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmedia_ecoservice.so",
             ],
             shared_libs: [
+                "libbinder_shim",
                 "libbinder",
                 "libcutils",
                 "liblog",
@@ -9245,6 +9247,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libmedia_ecoservice.so",
             ],
             shared_libs: [
+                "libbinder_shim",
                 "libbinder",
                 "libcutils",
                 "liblog",
@@ -23650,6 +23653,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libnos_citadeld_proxy.so",
             ],
             shared_libs: [
+                "libbinder_shim",
                 "android.frameworks.stats-V1-ndk",
                 "libbase",
                 "libbinder",
@@ -26691,6 +26695,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/hw/citadeld",
             ],
             shared_libs: [
+                "libbinder_shim",
                 "android.frameworks.stats-V1-ndk",
                 "libbase",
                 "libbinder",
